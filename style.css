@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* --- hero start --- */
+
+.hero {
+    background-color: #1f2937;
+    height: 500px;
+    color: white;
+}
+
+
+/* header */
+.header-top {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+.header-top ul {
+    list-style: none;
+}
+
+.header-top li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-top-logo {
+    font-size: 24px;
+    margin-right: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-top .signin {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.header-top .signin:hover {
+    background-color: transparent;
+    border: 1px solid #3882f6;
+    transition: 0.3s;
+}
+
+/* hero content */
+.hero-content {
+    padding: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 290px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.hero-content-title {
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+    width: max-content;
+}
+
+.hero-content-text {
+    font-weight: 300;
+    width: 450px;
+
+}
+
+.hero-content-button {
+    width: max-content;
+}
+
+.hero-content-button a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hero-content-button a:hover {
+    transition: 0.3s;
+    background-color: transparent;
+    border: 1px solid #3882f6;
+}
+
+.hero-content-image {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    float: right;
+    text-align: center;
+    align-content: center;
+    align-self: flex-end;
+}
+
+/* --- hero end --- */
+
+/* --- randinfo start --- */
+.randinfo {
+    padding: 50px 225px;
+    height: 370px;
+}
+
+.randinfo-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    color: #1f2937;
+}
+
+.randinfo-boxes {
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.randinfo-boxes-items {
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+.items-text {
+    margin-top: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.items-box {
+    border: 1px solid #3882f6;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* --- randinfo end --- */
+
+/* --- quote-section start --- */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.saidby {
+    font-size: 21px;
+    font-weight: 700;
+    font-style: normal;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+/* --- quote-section end --- */
+
+/* --- callout-area start --- */
+.callout-area {
+    padding: 50px 225px;
+    height: 300px;
+}
+
+.callout-box {
+    height: 90px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 25px 100px;
+    gap: 5px;
+    border-radius: 20px;
+}
+
+.callout-box-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.callout-box-button {
+    align-self: flex-end;
+}
+
+.callout-box-button a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.callout-box-button a:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+/* --- callout-area end --- */
+
+/* --- footer start --- */
+
+.footer {
+    height: 70px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- footer end --- */
